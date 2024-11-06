@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Demo - Pheludar</string>
+    
+    <string name="payment_status">Choose a payment status</string>
+
+    <string-array name="payment_status">
+        <item>CASH</item>
+        <item>CARD</item>
+        <item>JEAT</item>
+        <item>CHQ</item>
+        <item>OTHR</item>
+    </string-array>
+
+</resources>

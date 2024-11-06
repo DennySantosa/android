@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:onClick="StartingService"
+                android:text="Start" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:onClick="StopingService"
+                android:text="Stop" />
+        </LinearLayout>
+<Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="configure"
+            android:text="Configure GPS" 
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="addingjob"
+            android:text="Add Job" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="editingjob"
+            android:text="Edit Job" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="deleteingjob"
+            android:text="Delete Job" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="incompleteJob"
+            android:text="Incomplete Job" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="incompleteJob"
+            android:text="Complete Job" />
+    </LinearLayout>
+
+</RelativeLayout>
